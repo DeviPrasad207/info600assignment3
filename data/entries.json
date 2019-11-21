@@ -11,6 +11,24 @@
             "id": "42",
             "major": "Computer Science",
             "startYear": 2012
+        },
+        {
+            "fullName": "Jacob",
+            "id": "19ec5a",
+            "major": "Mathematical ",
+            "startYear": 2020
+        },
+        {
+            "fullName": "Robert",
+            "id": "5ef8ec",
+            "major": "DS",
+            "startYear": 2002
+        },
+        {
+            "fullName": "Pete",
+            "id": "ff0814",
+            "major": "Info",
+            "startYear": 2003
         }
     ]
 }

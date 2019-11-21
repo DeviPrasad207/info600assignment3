@@ -1,11 +1,22 @@
+<!--
+===========================================
+Student Name: DEVI VARA PRASAD BOMMIDI
+Solution for Info 600 - Assignment 3
+===========================================
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Student Record Management</title>
-    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
     <script src="js/main.js"></script>
-</head>
+   </head>
+
 <body>
 
 <h1>Student Record Management</h1>
@@ -17,19 +28,19 @@
 </div>
 
 <div>
-  <label for="major">Major</label>
+  <label for="major">Major&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
   <input type="text" name="major" id="major" />
 </div>
 
 <div>
-  <label for="startYear">Start Year</label>
+  <label for="startYear">Start Year&nbsp;</label>
   <input type="text" name="startYear" id="startYear" />
 </div>
 
 <div id="buttonParent">
 <input type="button" value="Add Record" id="addRec" />
+<input type="button" value="Load Data" id="loadData" /> 
 </div>
-</form>
 
 <br />
 
@@ -37,7 +48,8 @@
 
 <ul id="enteredRecords">
 </ul>
-
+<ul id="pullData">
+  </ul>
 
 </body>
 </html>
